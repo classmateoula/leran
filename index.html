@@ -19,7 +19,7 @@
                 "imgUrl": "http://g.lanrenmb.com/icon/qmxzfzm.png",
                 "timeLineLink": "http://g.lanrenmb.com/games/qmxzfzm/index.html",
                 "tTitle": "全民寻找周乐冉-",
-                "tContent": "全民寻找周乐冉！虽然丁丁向龙叔保证不会带坏周乐冉,但龙叔强烈要求你找回乐冉。-"
+                "tContent": "全民寻找周乐冉！虽然萝卜向龙叔保证不会带坏周乐冉,但龙叔强烈要求你找回乐冉。-"
             };
 
             function goHome() {
@@ -34,7 +34,7 @@
                 }
             }
             function dp_share() {
-                document.title = "我在1分钟内" + (myData.score) + "次从丁丁身边找到周乐冉！你也来试试！";
+                document.title = "我在1分钟内" + (myData.score) + "次从萝卜身边找到周乐冉！你也来试试！";
                 document.getElementById("share").style.display = "";
                 window.shareData.tTitle = document.title;
             }
@@ -74,7 +74,7 @@
                 myData.score = parseInt(score);
                 myData.scoreName = "成功寻找" + score + "次周乐冉";
                 if (score > 1) {
-                    if (confirm("你一共" + score + "次从丁丁身边找到周乐冉，你的24k氪金眼还没瞎吗？快让你的朋友也来试试吧")) {
+                    if (confirm("你一共" + score + "次从萝卜身边找到周乐冉，你的24k氪金眼还没瞎吗？快让你的朋友也来试试吧")) {
                         dp_share();
                     }
                 }
